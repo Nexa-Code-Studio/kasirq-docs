@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkkasirq_docs=globalThis.webpackChunkkasirq_docs||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/kasirq-docs/blog","blogTitle":"Blog","authorsListPath":"/kasirq-docs/blog/authors"}')}}]);

@@ -1,0 +1,116 @@
+{
+  "/kasirq-docs/__docusaurus/debug-68d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    }
+  },
+  "/kasirq-docs/__docusaurus/debug/config-267": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    }
+  },
+  "/kasirq-docs/__docusaurus/debug/content-e1a": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    },
+    "__props": "__props---kasirq-docs-docusaurus-debug-contente-6-d-4f4"
+  },
+  "/kasirq-docs/__docusaurus/debug/globalData-909": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    }
+  },
+  "/kasirq-docs/__docusaurus/debug/metadata-ada": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    }
+  },
+  "/kasirq-docs/__docusaurus/debug/registry-ee2": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    }
+  },
+  "/kasirq-docs/__docusaurus/debug/routes-b3c": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docusaurus-debugb-38-d28"
+    }
+  },
+  "/kasirq-docs/markdown-page-27d": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-markdown-pagea-74-b1e"
+    },
+    "content": "content---kasirq-docs-markdown-page-393-03f"
+  },
+  "/kasirq-docs/docs-e17": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-docsaba-ea8"
+    }
+  },
+  "/kasirq-docs/docs-31f": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---kasirq-docs-docs-175-3da"
+  },
+  "/kasirq-docs/docs-2bf": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/kasirq-docs/docs/category/tutorial---basics-11b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---kasirq-docs-docs-category-tutorial-basics-2-cb-014"
+  },
+  "/kasirq-docs/docs/category/tutorial---extras-0e8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---kasirq-docs-docs-category-tutorial-extras-7-a-9-1fc"
+  },
+  "/kasirq-docs/docs/intro-03e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-intro-0-e-3-9fb"
+  },
+  "/kasirq-docs/docs/tutorial-basics/congratulations-f6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-basics-congratulations-822-758"
+  },
+  "/kasirq-docs/docs/tutorial-basics/create-a-blog-post-4ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-basics-create-a-blog-post-533-5ae"
+  },
+  "/kasirq-docs/docs/tutorial-basics/create-a-document-eb0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-basics-create-a-document-1-e-4-00b"
+  },
+  "/kasirq-docs/docs/tutorial-basics/create-a-page-3e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-basics-create-a-page-5-c-8-c5b"
+  },
+  "/kasirq-docs/docs/tutorial-basics/deploy-your-site-2ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-basics-deploy-your-sitef-55-aab"
+  },
+  "/kasirq-docs/docs/tutorial-basics/markdown-features-415": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-basics-markdown-features-18-c-93c"
+  },
+  "/kasirq-docs/docs/tutorial-extras/manage-docs-versions-9f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-extras-manage-docs-versionsdff-2a1"
+  },
+  "/kasirq-docs/docs/tutorial-extras/translate-your-site-9c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---kasirq-docs-docs-tutorial-extras-translate-your-sitee-44-5c8"
+  },
+  "/kasirq-docs/-ead": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---kasirq-docs-markdown-pagea-74-b1e"
+    },
+    "config": "config---kasirq-docs-5-e-9-736"
+  }
+}
