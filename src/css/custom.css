@@ -6,25 +6,139 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #4F46E5;
+  /* Indigo 600 */
+  --ifm-color-primary-dark: #4338CA;
+  --ifm-color-primary-darker: #3730A3;
+  --ifm-color-primary-darkest: #312E81;
+  --ifm-color-primary-light: #6366F1;
+  --ifm-color-primary-lighter: #818CF8;
+  --ifm-color-primary-lightest: #A5B4FC;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom Backgrounds */
+  --ifm-background-color: #F8FAFC;
+  /* Slate 50 */
+  --ifm-card-background-color: #FFFFFF;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #818CF8;
+  /* Indigo 400 */
+  --ifm-color-primary-dark: #6366F1;
+  --ifm-color-primary-darker: #4F46E5;
+  --ifm-color-primary-darkest: #4338CA;
+  --ifm-color-primary-light: #A5B4FC;
+  --ifm-color-primary-lighter: #C7D2FE;
+  --ifm-color-primary-lightest: #E0E7FF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Custom Backgrounds Dark */
+  --ifm-background-color: #0F172A;
+  /* Slate 900 */
+  --ifm-card-background-color: #1E293B;
+  /* Slate 800 */
+}
+
+/* Global button refinements */
+.button--secondary {
+  --ifm-button-background-color: white;
+  --ifm-button-color: var(--ifm-color-primary);
+  --ifm-button-border-color: white;
+}
+
+.button--secondary:hover {
+  --ifm-button-background-color: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .button--secondary {
+  --ifm-button-background-color: var(--ifm-color-primary-lightest);
+  --ifm-button-color: var(--ifm-color-primary-darkest);
+}
+
+/* Feature cards: grid, card, icon box, and hover effects */
+.feature-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: start;
+}
+
+.feature-card {
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+  border: 1px solid transparent;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 160px;
+}
+
+.feature-card:focus-within,
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(2,6,23,0.12);
+  border-color: var(--ifm-color-primary);
+}
+
+.feature-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 1px 2px rgba(2,6,23,0.04);
+}
+
+.feature-card-title {
+  font-weight: 600;
+  margin-bottom: 0.375rem;
+}
+
+.feature-card-description {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+/* Steps layout */
+.step-container {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.step-number {
+  background: var(--ifm-color-primary);
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.step-content h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .feature-card {
+    box-shadow: 0 1px 2px rgba(2,6,23,0.4);
+  }
+  .feature-card:focus-within,
+  .feature-card:hover {
+    box-shadow: 0 8px 24px rgba(2,6,23,0.6);
+    border-color: var(--ifm-color-primary-light);
+  }
 }

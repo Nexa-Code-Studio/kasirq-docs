@@ -5,12 +5,56 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
 }
 
+[data-theme='light'] .heroBanner {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme='dark'] .heroBanner {
+  background: var(--ifm-color-primary-darkest);
+  color: white;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.heroText {
+  flex: 1;
+  text-align: left;
+}
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage svg {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
 @media screen and (max-width: 996px) {
+  .heroContent {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .heroText {
+    text-align: center;
+  }
+
   .heroBanner {
     padding: 2rem;
   }
@@ -19,5 +63,12 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  .buttons {
+    justify-content: center;
+  }
 }

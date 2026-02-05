@@ -89,8 +89,8 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/Nexa-Code-Studio/kasirq-docs",
-          label: "GitHub",
+          href: "https://nexacode.dev",
+          label: "NexaCode",
           position: "right",
         },
       ],
@@ -99,7 +99,15 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "KasirQ",
+          items: [
+            {
+              html: '<p>KasirQ membantu bisnis mengelola transaksi, stok, dan laporan dalam satu sistem yang sederhana dan efisien.</p>',
+            },
+          ],
+        },
+        {
+          title: "Navigasi",
           items: [
             {
               label: "Tutorial",
@@ -108,37 +116,31 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "Hubungi Kami",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "WhatsApp",
+              href: "https://wa.me/6288295477204",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Our Blog",
+              href: "https://nexacode.dev",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
+              label: "Our Instagram",
+              href: "https://instagram.com/nexacode.studio",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "studionexacode@gmail.com",
+              href: "mailto:studionexacode@gmail.com",
+            },
+            {
+              html: '<span>Indonesia</span>',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nexa Code Studio.`,
     },
     prism: {
       theme: prismThemes.github,
