@@ -122,8 +122,8 @@ KasirQ menggunakan sistem role untuk membedakan hak akses pengguna:
 
 Pilih panduan sesuai dengan role Anda:
 
-- [**Supervisor**](/docs/roles/supervisor/overview) – Pengaturan toko, laporan, dan manajemen data
-- [**Kasir**](/docs/roles/kasir/overview) – Panduan penggunaan menu kasir dan transaksi
+- [**Supervisor**](/docs/roles/tutorial-supervisor/panduan-spv) – Pengaturan toko, laporan, dan manajemen data
+- [**Kasir**](/docs/roles/tutorial-ksr/panduan-ksr) – Panduan penggunaan menu kasir dan transaksi
 
 ## Butuh Bantuan?
 
