@@ -118,6 +118,7 @@ Dashboard Supervisor **bukan hanya tampilan informasi**, tetapi alat kontrol har
 ## Langkah Selanjutnya
 
 Setelah memahami dashboard, Anda dapat melanjutkan ke panduan berikut:
+[Monitoring Transaksi](/docs/tutorial-supervisor/transaksi)
 
 <!-- - [Manajemen Produk & Stok](/docs/roles/supervisor/products)
 - [Monitoring Transaksi](/docs/roles/supervisor/transactions)
@@ -126,6 +127,45 @@ Setelah memahami dashboard, Anda dapat melanjutkan ke panduan berikut:
 
 ---
 
-:::tip Tips Supervisor
-Biasakan mengecek dashboard di awal dan akhir shift untuk memastikan kondisi toko tetap terkendali.
+## Tanggung Jawab Supervisor
+
+:::danger Penting
+Sebagai Supervisor, Anda bertanggung jawab langsung terhadap operasional toko harian. Pastikan untuk:
+- Mengawasi aktivitas transaksi kasir secara rutin
+- Memastikan stok produk tetap tersedia dan akurat
+- Menindaklanjuti peringatan stok menipis
+- Memeriksa laporan penjualan dan keuntungan harian
+- Menjaga kerahasiaan akses akun supervisor
 :::
+
+:::tip Best Practice
+- Cek dashboard di awal dan akhir shift
+- Review transaksi hari ini untuk mendeteksi kejanggalan
+- Lakukan pengecekan stok fisik secara berkala
+- Koordinasi dengan kasir jika terjadi selisih data
+- Pastikan data tersinkron sebelum tutup toko
+:::
+
+## FAQ untuk Supervisor
+
+**Q: Apakah Supervisor bisa melakukan transaksi penjualan?**  
+
+A: Ya. Supervisor dapat mengakses menu kasir dan melakukan transaksi seperti kasir biasa jika diperlukan.
+
+**Q: Apa yang harus dilakukan jika stok di sistem tidak sesuai dengan stok fisik?**  
+
+A: Lakukan pengecekan ulang, kemudian sesuaikan stok melalui menu produk atau laporkan ke admin jika diperlukan audit.
+
+**Q: Mengapa ada peringatan stok menipis?**  
+
+A: Peringatan muncul jika stok produk berada di bawah 15 unit sebagai pengingat untuk segera melakukan restock.
+
+**Q: Berapa transaksi yang ditampilkan di dashboard?**  
+
+A: Dashboard menampilkan maksimal 5 transaksi terbaru pada hari berjalan untuk monitoring cepat.
+
+**Q: Apakah Supervisor bisa mengakses laporan keuangan?**  
+
+A: Ya. Supervisor dapat melihat laporan penjualan dan keuntungan, namun tidak dapat mengubah konfigurasi sistem keuangan.
+
+
