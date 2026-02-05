@@ -119,10 +119,10 @@ Dashboard Supervisor **bukan hanya tampilan informasi**, tetapi alat kontrol har
 
 Setelah memahami dashboard, Anda dapat melanjutkan ke panduan berikut:
 
-- [Manajemen Produk & Stok](/docs/roles/supervisor/products)
+<!-- - [Manajemen Produk & Stok](/docs/roles/supervisor/products)
 - [Monitoring Transaksi](/docs/roles/supervisor/transactions)
 - [Laporan Penjualan & Keuangan](/docs/roles/supervisor/reports)
-- [Manajemen Karyawan](/docs/roles/supervisor/employees)
+- [Manajemen Karyawan](/docs/roles/supervisor/employees) -->
 
 ---
 
