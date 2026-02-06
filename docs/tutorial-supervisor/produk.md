@@ -264,55 +264,75 @@ Fitur ini hanya dapat digunakan oleh **Supervisor**.
 
 Saat tombol **Catat Movement** diklik, sistem akan menampilkan **dialog form** dengan tahapan berikut:
 
-#### 1. Pilih Tipe Movement
-Supervisor wajib memilih salah satu:
-- **Masuk** → stok bertambah
-- **Keluar** → stok berkurang
+<div className="step-container">
+  <div className="step-number">1</div>
+  <div className="step-content">
+    <h3>Pilih Tipe Movement</h3>
+    <ul>
+      <li><strong>Masuk</strong> → stok bertambah</li>
+      <li><strong>Keluar</strong> → stok berkurang</li>
+    </ul>
+    <p>Tipe movement menentukan arah perubahan stok dan pencatatan laporan.</p>
+  </div>
+</div>
 
-Tipe movement menentukan arah perubahan stok dan pencatatan laporan.
+<div className="step-container">
+  <div className="step-number">2</div>
+  <div className="step-content">
+    <h3>Pilih Produk</h3>
+    <p>Produk dipilih melalui pencarian berdasarkan nama produk atau barcode. Hanya produk yang <strong>sudah terdaftar</strong> di sistem yang dapat dipilih. Produk <strong>tidak dapat ditambahkan</strong> dari form ini.</p>
+  </div>
+</div>
 
-#### 2. Pilih Produk
-Produk dipilih melalui pencarian berdasarkan:
-- **Nama produk**
-- **Barcode**
+<div className="step-container">
+  <div className="step-number">3</div>
+  <div className="step-content">
+    <h3>Pilih Alasan</h3>
+    <p>Alasan movement <strong>wajib dipilih</strong> untuk kebutuhan audit.</p>
+    <ul>
+      <li>Barang masuk</li>
+      <li>Penyesuaian stok</li>
+      <li>Pengembalian barang</li>
+      <li>Kadaluarsa</li>
+      <li>Rusak</li>
+      <li>Hilang</li>
+      <li>Penggunaan pribadi</li>
+    </ul>
+    <p>Alasan akan memengaruhi kategori laporan dan perhitungan nilai kerugian (jika ada).</p>
+  </div>
+</div>
 
-Hanya produk yang **sudah terdaftar** di sistem yang dapat dipilih.  
-Produk **tidak dapat ditambahkan** dari form ini.
+<div className="step-container">
+  <div className="step-number">4</div>
+  <div className="step-content">
+    <h3>Jumlah (Qty)</h3>
+    <ul>
+      <li>Diisi dengan jumlah stok yang masuk atau keluar</li>
+      <li>Nilai harus <strong>lebih dari 0</strong></li>
+      <li>Sistem otomatis menyesuaikan stok berdasarkan tipe (Masuk / Keluar)</li>
+    </ul>
+  </div>
+</div>
 
-#### 3. Pilih Alasan
-Alasan movement **wajib dipilih** untuk kebutuhan audit.
+<div className="step-container">
+  <div className="step-number">5</div>
+  <div className="step-content">
+    <h3>Catatan</h3>
+    <p>Kolom catatan bersifat <strong>opsional</strong>, namun sangat dianjurkan, terutama untuk movement <strong>Keluar</strong>. Digunakan untuk penjelasan tambahan, nomor dokumen internal, atau klarifikasi kondisi barang.</p>
+  </div>
+</div>
 
-Contoh alasan:
-- Barang masuk
-- Penyesuaian stok
-- Pengembalian barang
-- Kadaluarsa
-- Rusak
-- Hilang
-- Penggunaan pribadi
-
-Alasan akan memengaruhi:
-- Kategori laporan
-- Perhitungan nilai kerugian (jika ada)
-
-#### 4. Jumlah (Qty)
-- Diisi dengan jumlah stok yang masuk atau keluar
-- Nilai harus **lebih dari 0**
-- Sistem otomatis menyesuaikan stok berdasarkan tipe (Masuk / Keluar)
-
-#### 5. Catatan
-Kolom catatan bersifat **opsional**, namun sangat dianjurkan, terutama untuk movement **Keluar**.
-
-Digunakan untuk:
-- Penjelasan tambahan
-- Nomor dokumen internal
-- Klarifikasi kondisi barang
-
-#### 6. Simpan Movement
-Setelah disimpan:
-- Stok produk akan langsung diperbarui
-- Data tercatat di tabel **Stock Movement**
-- Data **tidak dapat dihapus atau diedit**
+<div className="step-container">
+  <div className="step-number">6</div>
+  <div className="step-content">
+    <h3>Simpan Movement</h3>
+    <ul>
+      <li>Stok produk akan langsung diperbarui</li>
+      <li>Data tercatat di tabel <strong>Stock Movement</strong></li>
+      <li>Data <strong>tidak dapat dihapus atau diedit</strong></li>
+    </ul>
+  </div>
+</div>
 
 :::warning Penting
 Stock Movement **manual** hanya digunakan untuk kondisi **non-transaksi**, seperti:
