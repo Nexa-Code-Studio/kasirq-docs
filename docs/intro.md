@@ -82,7 +82,7 @@ Fokus utama KasirQ adalah kecepatan, kejelasan data, dan kemudahan penggunaan ta
   <div className="step-number">1</div>
   <div className="step-content">
     <h3>Instal Aplikasi</h3>
-    <p>Instal aplikasi KasirQ sesuai dengan platform yang digunakan (desktop atau mobile)</p>
+    <p>Instal aplikasi KasirQ sesuai dengan platform yang digunakan (desktop)</p>
   </div>
 </div>
 

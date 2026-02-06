@@ -12,6 +12,8 @@ Halaman **Riwayat Transaksi** digunakan oleh Kasir untuk melihat kembali transak
 
 Halaman ini bersifat **read-only** dan hanya menampilkan transaksi yang dilakukan oleh akun kasir yang sedang login.
 
+![alt text](img/riwayat.png)
+
 ---
 
 ## Fungsi Utama Halaman
