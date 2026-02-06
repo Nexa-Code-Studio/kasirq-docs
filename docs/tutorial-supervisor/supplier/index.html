@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tutorial-supervisor/supplier" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Kelola Pemasok &amp; Purchase Order | KasirQ Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://nexa-code-studio.github.io/kasirq-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://nexa-code-studio.github.io/kasirq-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/supplier/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Kelola Pemasok &amp; Purchase Order | KasirQ Documentation"><meta data-rh="true" name="description" content="👤 Role: Supervisor"><meta data-rh="true" property="og:description" content="👤 Role: Supervisor"><link data-rh="true" rel="icon" href="/kasirq-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/supplier/"><link data-rh="true" rel="alternate" href="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/supplier/" hreflang="en"><link data-rh="true" rel="alternate" href="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/supplier/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Tutorial - Supervisor","item":"https://nexa-code-studio.github.io/kasirq-docs/docs/category/tutorial---supervisor"},{"@type":"ListItem","position":2,"name":"Kelola Pemasok & Purchase Order","item":"https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/supplier"}]}</script><link rel="stylesheet" href="/kasirq-docs/assets/css/styles.15400e4c.css">
+<script src="/kasirq-docs/assets/js/runtime~main.610381a8.js" defer="defer"></script>
+<script src="/kasirq-docs/assets/js/main.fc2370a0.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/kasirq-docs/img/logo-light.png"><link rel="preload" as="image" href="/kasirq-docs/img/logo-dark.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/kasirq-docs/"><div class="navbar__logo"><img src="/kasirq-docs/img/logo-light.png" alt="KasirQ Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/kasirq-docs/img/logo-dark.png" alt="KasirQ Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">KasirQ</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/kasirq-docs/docs/">Tutorial</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://nexacode.dev" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">NexaCode<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/kasirq-docs/docs/"><span title="Mulai Cepat" class="linkLabel_WmDU">Mulai Cepat</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/kasirq-docs/docs/category/tutorial---supervisor/"><span title="Tutorial - Supervisor" class="categoryLinkLabel_W154">Tutorial - Supervisor</span></a><button aria-label="Collapse sidebar category &#x27;Tutorial - Supervisor&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/panduan-spv/"><span title="Panduan Supervisor" class="linkLabel_WmDU">Panduan Supervisor</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/transaksi/"><span title="Transaksi Pembelian" class="linkLabel_WmDU">Transaksi Pembelian</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/riwayat/"><span title="Riwayat Transaksi" class="linkLabel_WmDU">Riwayat Transaksi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/produk/"><span title="Kelola Produk &amp; Stok" class="linkLabel_WmDU">Kelola Produk &amp; Stok</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/supplier/"><span title="Kelola Pemasok &amp; Purchase Order" class="linkLabel_WmDU">Kelola Pemasok &amp; Purchase Order</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/pembeli/"><span title="Data Pembeli &amp; Data Hutang" class="linkLabel_WmDU">Data Pembeli &amp; Data Hutang</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/karyawan/"><span title="Kelola Akun &amp; Karyawan" class="linkLabel_WmDU">Kelola Akun &amp; Karyawan</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/keuangan/"><span title="Keuangan &amp; Pengingat Pembayaran" class="linkLabel_WmDU">Keuangan &amp; Pengingat Pembayaran</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/setting/"><span title="Pengaturan Aplikasi" class="linkLabel_WmDU">Pengaturan Aplikasi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/laporan/"><span title="Laporan &amp; Analitik" class="linkLabel_WmDU">Laporan &amp; Analitik</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/kasirq-docs/docs/category/tutorial---kasir/"><span title="Tutorial - Kasir" class="categoryLinkLabel_W154">Tutorial - Kasir</span></a><button aria-label="Expand sidebar category &#x27;Tutorial - Kasir&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/kasirq-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/kasirq-docs/docs/category/tutorial---supervisor/"><span>Tutorial - Supervisor</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Kelola Pemasok &amp; Purchase Order</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Kelola Pemasok &amp; Purchase Order</h1></header>
+<div class="role-badge supervisor"><p>👤 Role: Supervisor</p></div>
+<p>Halaman <strong>Kelola Pemasok &amp; Purchase Order</strong> digunakan oleh Supervisor untuk mengelola data pemasok (supplier) serta proses <strong>penambahan stok melalui Purchase Order (PO)</strong> dengan sistem <strong>barang datang dulu, pembayaran menyusul (jatuh tempo)</strong>.</p>
+<p>Fitur pada halaman ini dibagi menjadi <strong>2 tab utama</strong> untuk memisahkan pengelolaan data dan transaksi pembelian.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ringkasan-tab">Ringkasan Tab<a href="#ringkasan-tab" class="hash-link" aria-label="Direct link to Ringkasan Tab" title="Direct link to Ringkasan Tab" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>Data Supplier</strong> – Kelola data pemasok</li>
+<li class=""><strong>Purchase Order</strong> – Kelola pembelian stok dan pembayaran bertahap</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tab-1--data-supplier">Tab 1 — Data Supplier<a href="#tab-1--data-supplier" class="hash-link" aria-label="Direct link to Tab 1 — Data Supplier" title="Direct link to Tab 1 — Data Supplier" translate="no">​</a></h2>
+<p>Tab <strong>Data Supplier</strong> digunakan untuk mengelola seluruh data pemasok yang bekerja sama dengan toko.</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/kasirq-docs/assets/images/supplier-dc26ae3f7856dab0d4e8bd21a30daa96.png" width="1080" height="703" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fitur-utama">Fitur Utama<a href="#fitur-utama" class="hash-link" aria-label="Direct link to Fitur Utama" title="Direct link to Fitur Utama" translate="no">​</a></h3>
+<p>Supervisor dapat:</p>
+<ul>
+<li class="">Mencari supplier</li>
+<li class="">Menambah supplier</li>
+<li class="">Melihat detail supplier</li>
+<li class="">Mengedit supplier</li>
+<li class="">Menghapus supplier</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pencarian-supplier">Pencarian Supplier<a href="#pencarian-supplier" class="hash-link" aria-label="Direct link to Pencarian Supplier" title="Direct link to Pencarian Supplier" translate="no">​</a></h3>
+<p>Kolom pencarian mendukung pencarian berdasarkan:</p>
+<ul>
+<li class=""><strong>Nama supplier</strong></li>
+<li class=""><strong>Nama perusahaan</strong></li>
+</ul>
+<p>Pencarian bersifat <strong>real-time</strong>.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tambah-supplier">Tambah Supplier<a href="#tambah-supplier" class="hash-link" aria-label="Direct link to Tambah Supplier" title="Direct link to Tambah Supplier" translate="no">​</a></h3>
+<p>Klik tombol <strong>Tambah Supplier</strong> untuk membuka form.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-tambah--edit-supplier">Form Tambah / Edit Supplier<a href="#form-tambah--edit-supplier" class="hash-link" aria-label="Direct link to Form Tambah / Edit Supplier" title="Direct link to Form Tambah / Edit Supplier" translate="no">​</a></h4>
+<p>Field yang wajib diisi:</p>
+<ul>
+<li class="">Nama kontak supplier</li>
+<li class="">Nama perusahaan</li>
+<li class="">Nomor telepon</li>
+<li class="">Alamat</li>
+<li class="">Kategori yang disupply</li>
+</ul>
+<p>Kategori digunakan sebagai referensi produk apa saja yang biasa disediakan oleh supplier tersebut.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tabel-data-supplier">Tabel Data Supplier<a href="#tabel-data-supplier" class="hash-link" aria-label="Direct link to Tabel Data Supplier" title="Direct link to Tabel Data Supplier" translate="no">​</a></h3>
+<table><thead><tr><th>Kolom</th><th>Deskripsi</th></tr></thead><tbody><tr><td>Nama Supplier</td><td>Nama kontak</td></tr><tr><td>Perusahaan</td><td>Nama perusahaan</td></tr><tr><td>Telepon</td><td>Nomor yang dapat dihubungi</td></tr><tr><td>Alamat</td><td>Alamat supplier</td></tr><tr><td>Total PO Aktif</td><td>Jumlah PO belum lunas</td></tr><tr><td>Total Pembelian</td><td>Akumulasi nilai pembelian</td></tr><tr><td>Aksi</td><td>Detail / Edit / Hapus</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="detail-supplier">Detail Supplier<a href="#detail-supplier" class="hash-link" aria-label="Direct link to Detail Supplier" title="Direct link to Detail Supplier" translate="no">​</a></h3>
+<p>Tombol <strong>Detail</strong> akan menampilkan:</p>
+<ul>
+<li class="">Informasi lengkap supplier</li>
+<li class="">Daftar kategori yang disupply</li>
+<li class="">Ringkasan histori purchase order</li>
+<li class="">Total pembelian keseluruhan</li>
+</ul>
+<p>Halaman detail bersifat <strong>informational (read-only)</strong>.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="show-entries--pagination">Show Entries &amp; Pagination<a href="#show-entries--pagination" class="hash-link" aria-label="Direct link to Show Entries &amp; Pagination" title="Direct link to Show Entries &amp; Pagination" translate="no">​</a></h3>
+<ul>
+<li class="">Show entries: 10 / 20 / 50</li>
+<li class="">Pagination untuk navigasi data supplier</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tab-2--purchase-order">Tab 2 — Purchase Order<a href="#tab-2--purchase-order" class="hash-link" aria-label="Direct link to Tab 2 — Purchase Order" title="Direct link to Tab 2 — Purchase Order" translate="no">​</a></h2>
+<p>Tab <strong>Purchase Order</strong> digunakan untuk mencatat pembelian stok dari supplier dengan sistem <strong>jatuh tempo pembayaran</strong>.</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/kasirq-docs/assets/images/po-44bc4faa18210f8380152c889c431f1b.png" width="1080" height="714" class="img_ev3q"></p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fitur-utama-1">Fitur Utama<a href="#fitur-utama-1" class="hash-link" aria-label="Direct link to Fitur Utama" title="Direct link to Fitur Utama" translate="no">​</a></h3>
+<p>Supervisor dapat:</p>
+<ul>
+<li class="">Membuat PO baru</li>
+<li class="">Mencari PO atau supplier</li>
+<li class="">Melihat status pembayaran</li>
+<li class="">Melakukan pembayaran PO</li>
+<li class="">Melihat detail PO</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pencarian--filter">Pencarian &amp; Filter<a href="#pencarian--filter" class="hash-link" aria-label="Direct link to Pencarian &amp; Filter" title="Direct link to Pencarian &amp; Filter" translate="no">​</a></h3>
+<ul>
+<li class="">Pencarian berdasarkan:<!-- -->
+<ul>
+<li class=""><strong>ID PO</strong></li>
+<li class=""><strong>Nama supplier</strong></li>
+</ul>
+</li>
+<li class="">Filter status:<!-- -->
+<ul>
+<li class=""><strong>Belum Lunas</strong></li>
+<li class=""><strong>Lunas</strong></li>
+</ul>
+</li>
+<li class="">Show entries</li>
+<li class="">Pagination</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tambah-purchase-order">Tambah Purchase Order<a href="#tambah-purchase-order" class="hash-link" aria-label="Direct link to Tambah Purchase Order" title="Direct link to Tambah Purchase Order" translate="no">​</a></h3>
+<p>Klik tombol <strong>Tambah PO</strong> untuk membuka form.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="informasi-umum">Informasi Umum<a href="#informasi-umum" class="hash-link" aria-label="Direct link to Informasi Umum" title="Direct link to Informasi Umum" translate="no">​</a></h4>
+<ul>
+<li class="">Pilih supplier</li>
+<li class="">Tentukan tanggal jatuh tempo pembayaran</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="tambah-produk-ke-po">Tambah Produk ke PO<a href="#tambah-produk-ke-po" class="hash-link" aria-label="Direct link to Tambah Produk ke PO" title="Direct link to Tambah Produk ke PO" translate="no">​</a></h4>
+<ul>
+<li class="">Cari produk berdasarkan <strong>nama atau barcode</strong></li>
+<li class="">Klik hasil pencarian untuk menambahkan ke tabel PO</li>
+<li class="">Produk yang ditambahkan akan muncul di tabel daftar barang</li>
+</ul>
+<h5 class="anchor anchorTargetStickyNavbar_Vzrq" id="tabel-daftar-barang-po">Tabel Daftar Barang PO<a href="#tabel-daftar-barang-po" class="hash-link" aria-label="Direct link to Tabel Daftar Barang PO" title="Direct link to Tabel Daftar Barang PO" translate="no">​</a></h5>
+<table><thead><tr><th>Kolom</th><th>Deskripsi</th></tr></thead><tbody><tr><td>Produk</td><td>Nama produk</td></tr><tr><td>Qty</td><td>Jumlah dibeli <em>(editable)</em></td></tr><tr><td>Harga</td><td>Harga beli satuan <em>(editable)</em></td></tr><tr><td>Subtotal</td><td>Qty × Harga</td></tr><tr><td>Aksi</td><td>Hapus item</td></tr></tbody></table>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="total-po">Total PO<a href="#total-po" class="hash-link" aria-label="Direct link to Total PO" title="Direct link to Total PO" translate="no">​</a></h4>
+<p>Di bagian bawah tabel akan ditampilkan:</p>
+<ul>
+<li class=""><strong>Total keseluruhan nilai PO</strong></li>
+</ul>
+<p>Setelah semua data sesuai, klik <strong>Buat PO</strong>.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Catatan</div><div class="admonitionContent_BuS1"><p>Saat PO dibuat:</p><ul>
+<li class="">Stok <strong>langsung bertambah</strong></li>
+<li class="">Status PO otomatis <strong>Belum Lunas</strong></li>
+</ul></div></div>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tabel-purchase-order">Tabel Purchase Order<a href="#tabel-purchase-order" class="hash-link" aria-label="Direct link to Tabel Purchase Order" title="Direct link to Tabel Purchase Order" translate="no">​</a></h3>
+<table><thead><tr><th>Kolom</th><th>Deskripsi</th></tr></thead><tbody><tr><td>PO ID</td><td>Kode unik purchase order</td></tr><tr><td>Supplier</td><td>Nama supplier</td></tr><tr><td>Tanggal</td><td>Tanggal PO dibuat</td></tr><tr><td>Jatuh Tempo</td><td>Tanggal + sisa hari</td></tr><tr><td>Items</td><td>Jumlah item</td></tr><tr><td>Total</td><td>Total nilai PO</td></tr><tr><td>Sisa Belum Dibayar</td><td>Nilai outstanding</td></tr><tr><td>Status</td><td>Belum Lunas / Lunas</td></tr><tr><td>Aksi</td><td>Bayar / Detail</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pembayaran-po">Pembayaran PO<a href="#pembayaran-po" class="hash-link" aria-label="Direct link to Pembayaran PO" title="Direct link to Pembayaran PO" translate="no">​</a></h3>
+<p>Klik tombol <strong>Bayar</strong> untuk membuka dialog pembayaran.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="informasi-po">Informasi PO<a href="#informasi-po" class="hash-link" aria-label="Direct link to Informasi PO" title="Direct link to Informasi PO" translate="no">​</a></h4>
+<p>Ditampilkan secara ringkas:</p>
+<ul>
+<li class="">Supplier</li>
+<li class="">Jatuh tempo</li>
+<li class="">Total PO</li>
+<li class="">Sudah dibayar</li>
+<li class="">Sisa yang harus dibayar</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-pembayaran">Form Pembayaran<a href="#form-pembayaran" class="hash-link" aria-label="Direct link to Form Pembayaran" title="Direct link to Form Pembayaran" translate="no">​</a></h4>
+<p>Field pembayaran:</p>
+<ul>
+<li class="">Jumlah pembayaran</li>
+<li class="">Tombol bantuan:<!-- -->
+<ul>
+<li class=""><strong>Bayar Lunas</strong></li>
+<li class=""><strong>Bayar 50%</strong></li>
+</ul>
+</li>
+<li class="">Jatuh tempo berikutnya <em>(jika ada perpanjangan)</em></li>
+<li class="">Metode pembayaran</li>
+</ul>
+<p>Klik <strong>Bayar</strong> untuk menyimpan pembayaran.</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Perhatian</div><div class="admonitionContent_BuS1"><p>Pembayaran parsial akan:</p><ul>
+<li class="">Mengurangi sisa tagihan</li>
+<li class="">Memperbarui jatuh tempo jika diubah</li>
+</ul></div></div>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="detail-purchase-order">Detail Purchase Order<a href="#detail-purchase-order" class="hash-link" aria-label="Direct link to Detail Purchase Order" title="Direct link to Detail Purchase Order" translate="no">​</a></h3>
+<p>Tombol <strong>Detail</strong> menampilkan:</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="informasi-umum-1">Informasi Umum<a href="#informasi-umum-1" class="hash-link" aria-label="Direct link to Informasi Umum" title="Direct link to Informasi Umum" translate="no">​</a></h4>
+<ul>
+<li class="">Supplier</li>
+<li class="">Status PO</li>
+<li class="">Jatuh tempo</li>
+<li class="">Total PO</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="daftar-item-po">Daftar Item PO<a href="#daftar-item-po" class="hash-link" aria-label="Direct link to Daftar Item PO" title="Direct link to Daftar Item PO" translate="no">​</a></h4>
+<table><thead><tr><th>Produk</th><th>Qty</th><th>Harga Satuan</th><th>Subtotal</th></tr></thead></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="rincian-pembayaran">Rincian Pembayaran<a href="#rincian-pembayaran" class="hash-link" aria-label="Direct link to Rincian Pembayaran" title="Direct link to Rincian Pembayaran" translate="no">​</a></h4>
+<p>Jika sudah ada pembayaran, akan muncul tabel:</p>
+<ul>
+<li class="">Tanggal pembayaran</li>
+<li class="">Jumlah dibayar</li>
+<li class="">Metode pembayaran</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tanggung-jawab-supervisor">Tanggung Jawab Supervisor<a href="#tanggung-jawab-supervisor" class="hash-link" aria-label="Direct link to Tanggung Jawab Supervisor" title="Direct link to Tanggung Jawab Supervisor" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>Penting</div><div class="admonitionContent_BuS1"><p>Supervisor bertanggung jawab atas:</p><ul>
+<li class="">Keakuratan data supplier</li>
+<li class="">Validitas purchase order</li>
+<li class="">Ketepatan jatuh tempo</li>
+<li class="">Pencatatan pembayaran</li>
+<li class="">Transparansi hutang pembelian</li>
+<li class="">Dampak PO terhadap stok dan keuangan</li>
+</ul></div></div>
+<p>Kesalahan input PO atau pembayaran akan berdampak langsung pada laporan keuangan dan stok.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="faq--supplier--purchase-order">FAQ — Supplier &amp; Purchase Order<a href="#faq--supplier--purchase-order" class="hash-link" aria-label="Direct link to FAQ — Supplier &amp; Purchase Order" title="Direct link to FAQ — Supplier &amp; Purchase Order" translate="no">​</a></h2>
+<p><strong>Q: Apakah stok langsung bertambah saat PO dibuat?</strong><br>
+<!-- -->A: Ya. PO dianggap barang sudah diterima.</p>
+<p><strong>Q: Apakah PO bisa dibayar sebagian?</strong><br>
+<!-- -->A: Bisa. Sistem mendukung pembayaran bertahap.</p>
+<p><strong>Q: Apakah jatuh tempo bisa diubah saat bayar?</strong><br>
+<!-- -->A: Bisa, jika ada kesepakatan perpanjangan dengan supplier.</p>
+<p><strong>Q: Apakah PO bisa dihapus?</strong><br>
+<!-- -->A: Tidak jika sudah memiliki pembayaran.</p>
+<p><strong>Q: Kenapa supplier tidak bisa dihapus?</strong><br>
+<!-- -->A: Supplier tidak dapat dihapus jika masih memiliki PO aktif.</p>
+<hr>
+<p>Halaman ini bersifat <strong>sensitif terhadap stok dan keuangan</strong><br>
+<!-- -->dan <strong>hanya dapat diakses oleh Supervisor</strong>.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/kasirq-docs/docs/tutorial-supervisor/produk/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Kelola Produk &amp; Stok</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/kasirq-docs/docs/tutorial-supervisor/pembeli/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Data Pembeli &amp; Data Hutang</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ringkasan-tab" class="table-of-contents__link toc-highlight">Ringkasan Tab</a></li><li><a href="#tab-1--data-supplier" class="table-of-contents__link toc-highlight">Tab 1 — Data Supplier</a><ul><li><a href="#fitur-utama" class="table-of-contents__link toc-highlight">Fitur Utama</a></li><li><a href="#pencarian-supplier" class="table-of-contents__link toc-highlight">Pencarian Supplier</a></li><li><a href="#tambah-supplier" class="table-of-contents__link toc-highlight">Tambah Supplier</a></li><li><a href="#tabel-data-supplier" class="table-of-contents__link toc-highlight">Tabel Data Supplier</a></li><li><a href="#detail-supplier" class="table-of-contents__link toc-highlight">Detail Supplier</a></li><li><a href="#show-entries--pagination" class="table-of-contents__link toc-highlight">Show Entries &amp; Pagination</a></li></ul></li><li><a href="#tab-2--purchase-order" class="table-of-contents__link toc-highlight">Tab 2 — Purchase Order</a><ul><li><a href="#fitur-utama-1" class="table-of-contents__link toc-highlight">Fitur Utama</a></li><li><a href="#pencarian--filter" class="table-of-contents__link toc-highlight">Pencarian &amp; Filter</a></li><li><a href="#tambah-purchase-order" class="table-of-contents__link toc-highlight">Tambah Purchase Order</a></li><li><a href="#tabel-purchase-order" class="table-of-contents__link toc-highlight">Tabel Purchase Order</a></li><li><a href="#pembayaran-po" class="table-of-contents__link toc-highlight">Pembayaran PO</a></li><li><a href="#detail-purchase-order" class="table-of-contents__link toc-highlight">Detail Purchase Order</a></li></ul></li><li><a href="#tanggung-jawab-supervisor" class="table-of-contents__link toc-highlight">Tanggung Jawab Supervisor</a></li><li><a href="#faq--supplier--purchase-order" class="table-of-contents__link toc-highlight">FAQ — Supplier &amp; Purchase Order</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">KasirQ</div><ul class="footer__items clean-list"><li class="footer__item"><p>KasirQ membantu bisnis mengelola transaksi, stok, dan laporan dalam satu sistem yang sederhana dan efisien.</p></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Navigasi</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/kasirq-docs/docs/">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Hubungi Kami</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://wa.me/6288295477204" target="_blank" rel="noopener noreferrer" class="footer__link-item">WhatsApp<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://nexacode.dev" target="_blank" rel="noopener noreferrer" class="footer__link-item">Our Blog<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://instagram.com/nexacode.studio" target="_blank" rel="noopener noreferrer" class="footer__link-item">Our Instagram<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="mailto:studionexacode@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">studionexacode@gmail.com<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><span>Indonesia</span></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Nexa Code Studio.</div></div></div></footer></div>
+</body>
+</html>

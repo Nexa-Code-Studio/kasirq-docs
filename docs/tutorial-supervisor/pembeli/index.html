@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tutorial-supervisor/pembeli" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Data Pembeli &amp; Data Hutang | KasirQ Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://nexa-code-studio.github.io/kasirq-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://nexa-code-studio.github.io/kasirq-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/pembeli/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Data Pembeli &amp; Data Hutang | KasirQ Documentation"><meta data-rh="true" name="description" content="👤 Role: Supervisor"><meta data-rh="true" property="og:description" content="👤 Role: Supervisor"><link data-rh="true" rel="icon" href="/kasirq-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/pembeli/"><link data-rh="true" rel="alternate" href="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/pembeli/" hreflang="en"><link data-rh="true" rel="alternate" href="https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/pembeli/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Tutorial - Supervisor","item":"https://nexa-code-studio.github.io/kasirq-docs/docs/category/tutorial---supervisor"},{"@type":"ListItem","position":2,"name":"Data Pembeli & Data Hutang","item":"https://nexa-code-studio.github.io/kasirq-docs/docs/tutorial-supervisor/pembeli"}]}</script><link rel="stylesheet" href="/kasirq-docs/assets/css/styles.15400e4c.css">
+<script src="/kasirq-docs/assets/js/runtime~main.610381a8.js" defer="defer"></script>
+<script src="/kasirq-docs/assets/js/main.fc2370a0.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/kasirq-docs/img/logo-light.png"><link rel="preload" as="image" href="/kasirq-docs/img/logo-dark.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/kasirq-docs/"><div class="navbar__logo"><img src="/kasirq-docs/img/logo-light.png" alt="KasirQ Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/kasirq-docs/img/logo-dark.png" alt="KasirQ Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">KasirQ</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/kasirq-docs/docs/">Tutorial</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://nexacode.dev" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">NexaCode<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/kasirq-docs/docs/"><span title="Mulai Cepat" class="linkLabel_WmDU">Mulai Cepat</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/kasirq-docs/docs/category/tutorial---supervisor/"><span title="Tutorial - Supervisor" class="categoryLinkLabel_W154">Tutorial - Supervisor</span></a><button aria-label="Collapse sidebar category &#x27;Tutorial - Supervisor&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/panduan-spv/"><span title="Panduan Supervisor" class="linkLabel_WmDU">Panduan Supervisor</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/transaksi/"><span title="Transaksi Pembelian" class="linkLabel_WmDU">Transaksi Pembelian</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/riwayat/"><span title="Riwayat Transaksi" class="linkLabel_WmDU">Riwayat Transaksi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/produk/"><span title="Kelola Produk &amp; Stok" class="linkLabel_WmDU">Kelola Produk &amp; Stok</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/supplier/"><span title="Kelola Pemasok &amp; Purchase Order" class="linkLabel_WmDU">Kelola Pemasok &amp; Purchase Order</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/pembeli/"><span title="Data Pembeli &amp; Data Hutang" class="linkLabel_WmDU">Data Pembeli &amp; Data Hutang</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/karyawan/"><span title="Kelola Akun &amp; Karyawan" class="linkLabel_WmDU">Kelola Akun &amp; Karyawan</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/keuangan/"><span title="Keuangan &amp; Pengingat Pembayaran" class="linkLabel_WmDU">Keuangan &amp; Pengingat Pembayaran</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/setting/"><span title="Pengaturan Aplikasi" class="linkLabel_WmDU">Pengaturan Aplikasi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/kasirq-docs/docs/tutorial-supervisor/laporan/"><span title="Laporan &amp; Analitik" class="linkLabel_WmDU">Laporan &amp; Analitik</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/kasirq-docs/docs/category/tutorial---kasir/"><span title="Tutorial - Kasir" class="categoryLinkLabel_W154">Tutorial - Kasir</span></a><button aria-label="Expand sidebar category &#x27;Tutorial - Kasir&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/kasirq-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/kasirq-docs/docs/category/tutorial---supervisor/"><span>Tutorial - Supervisor</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Data Pembeli &amp; Data Hutang</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Data Pembeli &amp; Data Hutang</h1></header>
+<div class="role-badge supervisor"><p>👤 Role: Supervisor</p></div>
+<p>Halaman <strong>Data Pembeli &amp; Data Hutang</strong> digunakan oleh Supervisor untuk mengelola data pembeli, sistem poin member, serta seluruh transaksi <strong>kasbon (hutang pembeli)</strong> secara terstruktur dan terdokumentasi.</p>
+<p>Fitur pada halaman ini dibagi menjadi <strong>2 tab utama</strong> untuk memisahkan pengelolaan data pelanggan dan pengawasan hutang.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ringkasan-tab">Ringkasan Tab<a href="#ringkasan-tab" class="hash-link" aria-label="Direct link to Ringkasan Tab" title="Direct link to Ringkasan Tab" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>Data Pembeli</strong> – Kelola data pembeli &amp; sistem poin</li>
+<li class=""><strong>Data Hutang</strong> – Monitoring dan pembayaran kasbon</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tab-1--data-pembeli">Tab 1 — Data Pembeli<a href="#tab-1--data-pembeli" class="hash-link" aria-label="Direct link to Tab 1 — Data Pembeli" title="Direct link to Tab 1 — Data Pembeli" translate="no">​</a></h2>
+<p>Tab <strong>Data Pembeli</strong> digunakan untuk mengelola seluruh data pelanggan yang terdaftar di sistem, termasuk <strong>sistem poin member</strong> dan informasi kasbon.</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/kasirq-docs/assets/images/pembeli-49c0f32a7b16bf9a590f41aa7b7c3a88.png" width="1080" height="705" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sistem-poin-member">Sistem Poin Member<a href="#sistem-poin-member" class="hash-link" aria-label="Direct link to Sistem Poin Member" title="Direct link to Sistem Poin Member" translate="no">​</a></h2>
+<p>Di bagian atas halaman terdapat <strong>card pengaturan sistem poin</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="skema-default">Skema Default<a href="#skema-default" class="hash-link" aria-label="Direct link to Skema Default" title="Direct link to Skema Default" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>1 poin</strong> untuk setiap pembelian senilai <strong>Rp10.000</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fitur-pengaturan">Fitur Pengaturan<a href="#fitur-pengaturan" class="hash-link" aria-label="Direct link to Fitur Pengaturan" title="Direct link to Fitur Pengaturan" translate="no">​</a></h3>
+<p>Supervisor dapat:</p>
+<ul>
+<li class=""><strong>Mengaktifkan / menonaktifkan</strong> sistem poin (Toggle ON / OFF)</li>
+<li class="">Mengubah:<!-- -->
+<ul>
+<li class="">Nilai poin</li>
+<li class="">Nilai minimum pembelian</li>
+</ul>
+</li>
+<li class=""><strong>Reset seluruh poin member</strong></li>
+</ul>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Perhatian</div><div class="admonitionContent_BuS1"><p>Reset poin akan menghapus seluruh poin pembeli dan tidak dapat dibatalkan.</p></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pencarian--filter-pembeli">Pencarian &amp; Filter Pembeli<a href="#pencarian--filter-pembeli" class="hash-link" aria-label="Direct link to Pencarian &amp; Filter Pembeli" title="Direct link to Pencarian &amp; Filter Pembeli" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pencarian">Pencarian<a href="#pencarian" class="hash-link" aria-label="Direct link to Pencarian" title="Direct link to Pencarian" translate="no">​</a></h3>
+<p>Kolom pencarian mendukung:</p>
+<ul>
+<li class=""><strong>Nama pembeli</strong></li>
+<li class=""><strong>Nomor telepon</strong></li>
+</ul>
+<p>Pencarian bersifat <strong>real-time</strong>.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="filter-tambahan">Filter Tambahan<a href="#filter-tambahan" class="hash-link" aria-label="Direct link to Filter Tambahan" title="Direct link to Filter Tambahan" translate="no">​</a></h3>
+<ul>
+<li class="">Checklist <strong>Memiliki Hutang (Kasbon)</strong></li>
+<li class="">Show entries</li>
+<li class="">Pagination</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tambah-pembeli">Tambah Pembeli<a href="#tambah-pembeli" class="hash-link" aria-label="Direct link to Tambah Pembeli" title="Direct link to Tambah Pembeli" translate="no">​</a></h3>
+<p>Klik tombol <strong>Tambah Pembeli</strong> untuk membuka form.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-tambah--edit-pembeli">Form Tambah / Edit Pembeli<a href="#form-tambah--edit-pembeli" class="hash-link" aria-label="Direct link to Form Tambah / Edit Pembeli" title="Direct link to Form Tambah / Edit Pembeli" translate="no">​</a></h4>
+<p>Field:</p>
+<ul>
+<li class="">Nama pembeli <em>(wajib)</em></li>
+<li class="">Nomor telepon <em>(wajib)</em></li>
+<li class="">Alamat <em>(opsional)</em></li>
+<li class="">Keterangan <em>(opsional)</em></li>
+</ul>
+<p>Form edit memiliki struktur yang sama dengan form tambah.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tabel-data-pembeli">Tabel Data Pembeli<a href="#tabel-data-pembeli" class="hash-link" aria-label="Direct link to Tabel Data Pembeli" title="Direct link to Tabel Data Pembeli" translate="no">​</a></h3>
+<table><thead><tr><th>Kolom</th><th>Deskripsi</th></tr></thead><tbody><tr><td>Nama Pembeli</td><td>Nama pelanggan</td></tr><tr><td>Telepon</td><td>Nomor telepon</td></tr><tr><td>Poin</td><td>Total poin member</td></tr><tr><td>Total Belanja</td><td>Akumulasi transaksi</td></tr><tr><td>Kasbon</td><td>Total hutang aktif</td></tr><tr><td>Alamat</td><td>Alamat pembeli</td></tr><tr><td>Aksi</td><td>Edit / Hapus</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tambah-hutang">Tambah Hutang<a href="#tambah-hutang" class="hash-link" aria-label="Direct link to Tambah Hutang" title="Direct link to Tambah Hutang" translate="no">​</a></h3>
+<p>Tombol <strong>Tambah Hutang</strong> digunakan untuk:</p>
+<ul>
+<li class="">Mencatat kasbon manual</li>
+<li class="">Kondisi khusus di luar transaksi kasir</li>
+</ul>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Catatan</div><div class="admonitionContent_BuS1"><p>Kasbon normal dari transaksi akan tercatat otomatis.</p></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tab-2--data-hutang">Tab 2 — Data Hutang<a href="#tab-2--data-hutang" class="hash-link" aria-label="Direct link to Tab 2 — Data Hutang" title="Direct link to Tab 2 — Data Hutang" translate="no">​</a></h2>
+<p>Tab <strong>Data Hutang</strong> digunakan untuk memantau seluruh hutang pembeli, status pembayaran, dan riwayat pelunasan.</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/kasirq-docs/assets/images/hutang-0b1a404667818aec69d7b5cbe361efa5.png" width="1080" height="713" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="card-summary-hutang">Card Summary Hutang<a href="#card-summary-hutang" class="hash-link" aria-label="Direct link to Card Summary Hutang" title="Direct link to Card Summary Hutang" translate="no">​</a></h2>
+<p>Di bagian atas halaman ditampilkan ringkasan:</p>
+<ul>
+<li class=""><strong>Total Belum Dibayar</strong></li>
+<li class=""><strong>Jumlah Pembeli dengan Kasbon</strong></li>
+<li class=""><strong>Jumlah Hutang Lunas</strong></li>
+</ul>
+<p>Ringkasan ini bersifat <strong>real-time</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pencarian--navigasi">Pencarian &amp; Navigasi<a href="#pencarian--navigasi" class="hash-link" aria-label="Direct link to Pencarian &amp; Navigasi" title="Direct link to Pencarian &amp; Navigasi" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pencarian-hutang">Pencarian Hutang<a href="#pencarian-hutang" class="hash-link" aria-label="Direct link to Pencarian Hutang" title="Direct link to Pencarian Hutang" translate="no">​</a></h3>
+<p>Pencarian berdasarkan:</p>
+<ul>
+<li class=""><strong>ID Transaksi</strong></li>
+<li class=""><strong>Nama Pembeli</strong></li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="navigasi-data">Navigasi Data<a href="#navigasi-data" class="hash-link" aria-label="Direct link to Navigasi Data" title="Direct link to Navigasi Data" translate="no">​</a></h3>
+<ul>
+<li class="">Show entries: 10 / 20 / 50</li>
+<li class="">Pagination</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tabel-data-hutang">Tabel Data Hutang<a href="#tabel-data-hutang" class="hash-link" aria-label="Direct link to Tabel Data Hutang" title="Direct link to Tabel Data Hutang" translate="no">​</a></h2>
+<table><thead><tr><th>Kolom</th><th>Deskripsi</th></tr></thead><tbody><tr><td>Nama Pembeli</td><td>Nama pelanggan</td></tr><tr><td>ID Transaksi</td><td>Referensi transaksi</td></tr><tr><td>Jatuh Tempo</td><td>Tanggal jatuh tempo</td></tr><tr><td>Total</td><td>Total hutang</td></tr><tr><td>Dibayar</td><td>Total sudah dibayar</td></tr><tr><td>Sisa</td><td>Sisa hutang</td></tr><tr><td>Status</td><td>Belum Lunas / Lunas</td></tr><tr><td>Aksi</td><td>Bayar / Detail</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="aksi-bayar-hutang">Aksi Bayar Hutang<a href="#aksi-bayar-hutang" class="hash-link" aria-label="Direct link to Aksi Bayar Hutang" title="Direct link to Aksi Bayar Hutang" translate="no">​</a></h2>
+<p>Klik tombol <strong>Bayar</strong> untuk membuka dialog pembayaran.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="informasi-kasbon">Informasi Kasbon<a href="#informasi-kasbon" class="hash-link" aria-label="Direct link to Informasi Kasbon" title="Direct link to Informasi Kasbon" translate="no">​</a></h3>
+<p>Ditampilkan secara ringkas:</p>
+<ul>
+<li class="">Nama pembeli</li>
+<li class="">ID transaksi</li>
+<li class="">Total hutang</li>
+<li class="">Sudah dibayar</li>
+<li class="">Sisa hutang</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-pembayaran-hutang">Form Pembayaran Hutang<a href="#form-pembayaran-hutang" class="hash-link" aria-label="Direct link to Form Pembayaran Hutang" title="Direct link to Form Pembayaran Hutang" translate="no">​</a></h3>
+<p>Field pembayaran:</p>
+<ul>
+<li class="">Jumlah pembayaran</li>
+<li class="">Tombol bantuan:<!-- -->
+<ul>
+<li class=""><strong>Bayar Lunas</strong></li>
+<li class=""><strong>Bayar 50%</strong></li>
+</ul>
+</li>
+<li class="">Jatuh tempo berikutnya <em>(opsional jika diperpanjang)</em></li>
+<li class="">Metode pembayaran</li>
+</ul>
+<p>Klik <strong>Bayar</strong> untuk menyimpan pembayaran.</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Perhatian</div><div class="admonitionContent_BuS1"><p>Pembayaran parsial akan:</p><ul>
+<li class="">Mengurangi sisa hutang</li>
+<li class="">Mengubah status menjadi tetap <strong>Belum Lunas</strong></li>
+</ul></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="detail-hutang">Detail Hutang<a href="#detail-hutang" class="hash-link" aria-label="Direct link to Detail Hutang" title="Direct link to Detail Hutang" translate="no">​</a></h2>
+<p>Klik tombol <strong>Detail</strong> untuk melihat informasi lengkap.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="informasi-umum">Informasi Umum<a href="#informasi-umum" class="hash-link" aria-label="Direct link to Informasi Umum" title="Direct link to Informasi Umum" translate="no">​</a></h3>
+<ul>
+<li class="">Nama pembeli</li>
+<li class="">ID transaksi</li>
+<li class="">Total hutang</li>
+<li class="">Sudah dibayar</li>
+<li class="">Sisa hutang</li>
+<li class="">Jatuh tempo</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="riwayat-pembayaran">Riwayat Pembayaran<a href="#riwayat-pembayaran" class="hash-link" aria-label="Direct link to Riwayat Pembayaran" title="Direct link to Riwayat Pembayaran" translate="no">​</a></h3>
+<p>Tabel riwayat pembayaran:</p>
+<table><thead><tr><th>Tanggal</th><th>Jumlah</th><th>Metode</th><th>Penerima</th></tr></thead></table>
+<p>Riwayat ini bersifat <strong>audit log</strong> dan tidak dapat diubah.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tanggung-jawab-supervisor">Tanggung Jawab Supervisor<a href="#tanggung-jawab-supervisor" class="hash-link" aria-label="Direct link to Tanggung Jawab Supervisor" title="Direct link to Tanggung Jawab Supervisor" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>Penting</div><div class="admonitionContent_BuS1"><p>Supervisor bertanggung jawab atas:</p><ul>
+<li class="">Validitas data pembeli</li>
+<li class="">Pengaturan sistem poin</li>
+<li class="">Pencatatan kasbon</li>
+<li class="">Pembayaran hutang</li>
+<li class="">Perubahan jatuh tempo</li>
+<li class="">Transparansi piutang usaha</li>
+</ul></div></div>
+<p>Kesalahan pencatatan hutang akan berdampak langsung pada laporan keuangan.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="faq--data-pembeli--hutang">FAQ — Data Pembeli &amp; Hutang<a href="#faq--data-pembeli--hutang" class="hash-link" aria-label="Direct link to FAQ — Data Pembeli &amp; Hutang" title="Direct link to FAQ — Data Pembeli &amp; Hutang" translate="no">​</a></h2>
+<p><strong>Q: Apakah sistem poin wajib diaktifkan?</strong><br>
+<!-- -->A: Tidak. Sistem poin dapat dimatikan kapan saja.</p>
+<p><strong>Q: Apakah poin bisa diedit manual?</strong><br>
+<!-- -->A: Bisa, namun hanya oleh Supervisor.</p>
+<p><strong>Q: Apakah hutang selalu berasal dari transaksi?</strong><br>
+<!-- -->A: Tidak. Hutang bisa dicatat manual melalui tombol Tambah Hutang.</p>
+<p><strong>Q: Apakah hutang bisa dihapus?</strong><br>
+<!-- -->A: Tidak. Hutang hanya bisa dilunasi, bukan dihapus.</p>
+<p><strong>Q: Apakah pembeli bisa dihapus?</strong><br>
+<!-- -->A: Bisa, selama tidak memiliki hutang aktif.</p>
+<hr>
+<p>Halaman ini bersifat <strong>sensitif terhadap piutang usaha</strong>.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/kasirq-docs/docs/tutorial-supervisor/supplier/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Kelola Pemasok &amp; Purchase Order</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/kasirq-docs/docs/tutorial-supervisor/karyawan/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Kelola Akun &amp; Karyawan</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ringkasan-tab" class="table-of-contents__link toc-highlight">Ringkasan Tab</a></li><li><a href="#tab-1--data-pembeli" class="table-of-contents__link toc-highlight">Tab 1 — Data Pembeli</a></li><li><a href="#sistem-poin-member" class="table-of-contents__link toc-highlight">Sistem Poin Member</a><ul><li><a href="#skema-default" class="table-of-contents__link toc-highlight">Skema Default</a></li><li><a href="#fitur-pengaturan" class="table-of-contents__link toc-highlight">Fitur Pengaturan</a></li></ul></li><li><a href="#pencarian--filter-pembeli" class="table-of-contents__link toc-highlight">Pencarian &amp; Filter Pembeli</a><ul><li><a href="#pencarian" class="table-of-contents__link toc-highlight">Pencarian</a></li><li><a href="#filter-tambahan" class="table-of-contents__link toc-highlight">Filter Tambahan</a></li><li><a href="#tambah-pembeli" class="table-of-contents__link toc-highlight">Tambah Pembeli</a></li><li><a href="#tabel-data-pembeli" class="table-of-contents__link toc-highlight">Tabel Data Pembeli</a></li><li><a href="#tambah-hutang" class="table-of-contents__link toc-highlight">Tambah Hutang</a></li></ul></li><li><a href="#tab-2--data-hutang" class="table-of-contents__link toc-highlight">Tab 2 — Data Hutang</a></li><li><a href="#card-summary-hutang" class="table-of-contents__link toc-highlight">Card Summary Hutang</a></li><li><a href="#pencarian--navigasi" class="table-of-contents__link toc-highlight">Pencarian &amp; Navigasi</a><ul><li><a href="#pencarian-hutang" class="table-of-contents__link toc-highlight">Pencarian Hutang</a></li><li><a href="#navigasi-data" class="table-of-contents__link toc-highlight">Navigasi Data</a></li></ul></li><li><a href="#tabel-data-hutang" class="table-of-contents__link toc-highlight">Tabel Data Hutang</a></li><li><a href="#aksi-bayar-hutang" class="table-of-contents__link toc-highlight">Aksi Bayar Hutang</a><ul><li><a href="#informasi-kasbon" class="table-of-contents__link toc-highlight">Informasi Kasbon</a></li><li><a href="#form-pembayaran-hutang" class="table-of-contents__link toc-highlight">Form Pembayaran Hutang</a></li></ul></li><li><a href="#detail-hutang" class="table-of-contents__link toc-highlight">Detail Hutang</a><ul><li><a href="#informasi-umum" class="table-of-contents__link toc-highlight">Informasi Umum</a></li><li><a href="#riwayat-pembayaran" class="table-of-contents__link toc-highlight">Riwayat Pembayaran</a></li></ul></li><li><a href="#tanggung-jawab-supervisor" class="table-of-contents__link toc-highlight">Tanggung Jawab Supervisor</a></li><li><a href="#faq--data-pembeli--hutang" class="table-of-contents__link toc-highlight">FAQ — Data Pembeli &amp; Hutang</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">KasirQ</div><ul class="footer__items clean-list"><li class="footer__item"><p>KasirQ membantu bisnis mengelola transaksi, stok, dan laporan dalam satu sistem yang sederhana dan efisien.</p></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Navigasi</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/kasirq-docs/docs/">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Hubungi Kami</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://wa.me/6288295477204" target="_blank" rel="noopener noreferrer" class="footer__link-item">WhatsApp<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://nexacode.dev" target="_blank" rel="noopener noreferrer" class="footer__link-item">Our Blog<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://instagram.com/nexacode.studio" target="_blank" rel="noopener noreferrer" class="footer__link-item">Our Instagram<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="mailto:studionexacode@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">studionexacode@gmail.com<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><span>Indonesia</span></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Nexa Code Studio.</div></div></div></footer></div>
+</body>
+</html>
