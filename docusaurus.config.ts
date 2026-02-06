@@ -83,7 +83,6 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://nexacode.dev",
           label: "NexaCode",
